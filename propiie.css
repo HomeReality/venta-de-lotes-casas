@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+    font-family: "Roboto", "Helvetica", "Snans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    line-height: 1,7;
+}
+
+.container {
+    max-width: 1140;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #f69934;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+h3 {
+    color: black;
+}
+p {
+    margin: 0 0 1rem;
+} 
+
+p.large-paragraph {
+    font-size: 1.25;
+    font-weight: 300;
+}
+
+#casaslotes {
+    margin: 4rem 0 6rem;
+    padding: 0 0 6rem;
+    border-bottom: 1px solid #ccc;
+}
+#casaslotes p.large-paragraph {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+#casaslotes .flex {
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#casaslotes .casalote {
+    width: 32%;
+    background: #f0f0f0;
+    margin-bottom: 2rem;
+}
+
+#casaslotes .casalote img {
+    width: 100%;
+}
+
+#casaslotes .casalote h3 {
+    font-family: "Playfair Display", serif;
+    color: #000;
+} 
+#casaslotes .casalotes h3,
+#casaslotes .casalotes p {
+    padding-left: 1rem;
+}
